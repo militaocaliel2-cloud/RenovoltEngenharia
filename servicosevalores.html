@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços e Valores - Renovolt Engenharia</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            navy: '#181b3a',     /* Azul Profundo Exclusivo da Marca */
+                            dark: '#0e1022',     /* Fundo Escuro Tecnológico */
+                            green: '#89bc44',    /* Verde Elétrico Oficial da Logo */
+                            light: '#f4f6fb',    /* Fundo Neutro Sofisticado */
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-light text-slate-800 font-sans antialiased selection:bg-brand-green selection:text-brand-navy">
+
+    <!-- HEADER -->
+    <header class="sticky top-0 z-40 bg-brand-navy/95 backdrop-blur-md border-b border-white/10 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-24 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-3 group">
+                <div class="bg-brand-dark p-2.5 rounded-xl border border-brand-green/40 shadow-md flex items-center space-x-2.5">
+                    <div class="w-8 h-8 rounded-lg bg-brand-green flex items-center justify-center text-brand-navy font-black text-xl shadow">
+                        <img src="imglogo.jpg" alt="Logo da Empresa" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <span class="text-lg sm:text-xl font-black tracking-widest text-white block leading-none">RENOVOLT</span>
+                        <span class="text-[9px] font-bold tracking-[0.25em] text-brand-green uppercase block mt-1">Engenharia</span>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="index.html" class="bg-brand-navy hover:bg-slate-800 text-white border border-brand-green/40 text-sm font-bold px-5 py-2.5 rounded-xl transition-all flex items-center space-x-2">
+                <i class="fa-solid fa-arrow-left"></i>
+                <span>Voltar ao Início</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- TÍTULO DA PÁGINA -->
+    <section class="py-16 bg-brand-dark text-white text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-15 bg-[radial-gradient(#89bc44_1px,transparent_1px)] [background-size:28px_28px]"></div>
+        <div class="max-w-4xl mx-auto px-4 relative z-10 space-y-4">
+            <span class="bg-brand-green/20 text-brand-green border border-brand-green/40 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block">
+                Portfólio de Serviços & Tabela de Investimento
+            </span>
+            <h1 class="text-3xl sm:text-5xl font-black tracking-tight">Soluções Completas em Engenharia Elétrica & Solar</h1>
+            <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto">
+                Conheça nossos planos detalhados, pacotes de gestão de O&M e serviços técnicos especializados com o mais alto rigor normativo.
+            </p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE PLANOS E VALORES -->
+    <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+            
+            <!-- PLANO 1: RESIDENCIAL -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-lg flex flex-col justify-between relative hover:border-brand-green transition-all">
+                <div>
+                    <span class="bg-slate-100 text-slate-800 text-xs font-bold px-3 py-1 rounded-full uppercase">Residencial</span>
+                    <h3 class="text-2xl font-black text-brand-navy mt-4">Kit Solar Residencial</h3>
+                    <p class="text-slate-600 text-sm mt-2">Ideal para casas e sobrados que buscam economia imediata na conta de luz.</p>
+                    
+                    <div class="my-6 py-6 border-y border-slate-100">
+                        <span class="text-xs text-slate-400 block uppercase font-semibold">A partir de</span>
+                        <span class="text-3xl sm:text-4xl font-black text-brand-navy">Sob Consulta</span>
+                        <span class="text-xs text-slate-500 block mt-1">Financiamento em até 120x com carência</span>
+                    </div>
+
+                    <ul class="space-y-3 text-sm text-slate-600">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Projeto completo e homologação</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Inversor e Módulos Tier 1</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Instalação física certificada</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Garantia de até 25 anos</li>
+                    </ul>
+                </div>
+
+                <div class="pt-8">
+                    <a href="https://wa.me/558296406958?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20o%20Plano%20Residencial." target="_blank" class="w-full bg-brand-navy hover:bg-slate-900 text-white font-bold py-3.5 rounded-xl text-center block transition-all shadow-md">
+                        Solicitar Orçamento
+                    </a>
+                </div>
+            </div>
+
+            <!-- PLANO 2: COMERCIAL / INDUSTRIAL (DESTAQUE) -->
+            <div class="bg-brand-navy text-white border-2 border-brand-green rounded-3xl p-8 shadow-2xl flex flex-col justify-between relative transform md:-translate-y-4">
+                <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-brand-green text-brand-navy font-black text-xs px-4 py-1.5 rounded-full uppercase tracking-wider shadow">
+                    Mais Procurado
+                </div>
+                <div>
+                    <span class="bg-brand-green/20 text-brand-green text-xs font-bold px-3 py-1 rounded-full uppercase">Comercial & O&M</span>
+                    <h3 class="text-2xl font-black text-white mt-4">Sistema Comercial / Usinas</h3>
+                    <p class="text-slate-300 text-sm mt-2">Para empresas, indústrias e usinas solares de grande porte.</p>
+                    
+                    <div class="my-6 py-6 border-y border-white/10">
+                        <span class="text-xs text-slate-400 block uppercase font-semibold">Gestão de O&M</span>
+                        <span class="text-3xl sm:text-4xl font-black text-brand-green">+50 MWp</span>
+                        <span class="text-xs text-slate-300 block mt-1">Monitoramento 24/7 e termografia</span>
+                    </div>
+
+                    <ul class="space-y-3 text-sm text-slate-300">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Telemetria e detecção preditiva</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Laudos técnicos e ART completa</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Limpeza e manutenção preventiva</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Equipe técnica especializada</li>
+                    </ul>
+                </div>
+
+                <div class="pt-8">
+                    <a href="https://wa.me/558296406958?text=Olá!%20Gostaria%20de%20um%20projeto%20para%20Plano%20Comercial%20ou%20O%26M." target="_blank" class="w-full bg-brand-green hover:bg-emerald-500 text-brand-navy font-black py-4 rounded-xl text-center block transition-all shadow-xl">
+                        Falar com Engenheiro
+                    </a>
+                </div>
+            </div>
+
+            <!-- PLANO 3: ENGENHARIA ELÉTRICA GERAL -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-lg flex flex-col justify-between relative hover:border-brand-green transition-all">
+                <div>
+                    <span class="bg-slate-100 text-slate-800 text-xs font-bold px-3 py-1 rounded-full uppercase">Laudos e Projetos</span>
+                    <h3 class="text-2xl font-black text-brand-navy mt-4">Engenharia Elétrica</h3>
+                    <p class="text-slate-600 text-sm mt-2">Soluções regulamentadas para baixa e média tensão.</p>
+                    
+                    <div class="my-6 py-6 border-y border-slate-100">
+                        <span class="text-xs text-slate-400 block uppercase font-semibold">Serviços Técnicos</span>
+                        <span class="text-2xl font-black text-brand-navy">Personalizado</span>
+                        <span class="text-xs text-slate-500 block mt-1">Conforme projeto e exigência</span>
+                    </div>
+
+                    <ul class="space-y-3 text-sm text-slate-600">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Projetos de subestações</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Laudos de SPDA (Para-raios)</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Inspeções e adequações NBR</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2.5"></i> Eficiência energética</li>
+                    </ul>
+                </div>
+
+                <div class="pt-8">
+                    <a href="https://wa.me/558296406958?text=Olá!%20Preciso%20de%20um%20laudo%20ou%20projeto%20de%20engenharia%20elétrica." target="_blank" class="w-full bg-brand-navy hover:bg-slate-900 text-white font-bold py-3.5 rounded-xl text-center block transition-all shadow-md">
+                        Solicitar Laudo Técnico
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-brand-dark text-slate-300 py-12 border-t border-white/10 text-sm text-center">
+        <p>© 2026 Renovolt Engenharia. Todos os direitos reservados. Coruripe - Alagoas.</p>
+    </footer>
+
+</body>
+</html>
